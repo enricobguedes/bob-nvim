@@ -1,6 +1,6 @@
 # bob-nvim
 
-
+[image](resources/bob.svg)
 
 **bob-nvim** is a plugin meant to be used with BOB from IBM.
 
