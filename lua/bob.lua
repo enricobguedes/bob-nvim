@@ -1,7 +1,7 @@
 local M = {}
 
 
-M.bobKurwa = function(searchText)
+M.bobSearch = function(searchText)
 
   local nvim = vim.api
   local  myWin, myBuf
