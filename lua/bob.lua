@@ -1,6 +1,5 @@
 local M = {}
 
-
 M.bobSearch = function(searchText)
 
   local nvim = vim.api
@@ -25,5 +24,10 @@ M.bobSearch = function(searchText)
       vim.cmd.term(bobCmd)
   end
 end
+
+-- Define user-command to run BobShell
+vim.api.nvim_create_user_command("BobShell", function()
+  M.bobSearch()
+end, {})
 
 return M
