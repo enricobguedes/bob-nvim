@@ -2,12 +2,12 @@
 
 ![image](https://github.com/enricobguedes/bob-nvim/blob/main/resources/bob.svg)
 
-**bob-nvim** is a plugin meant to be used with BOB from IBM.
+**bob-nvim** is a plugin meant to be used with Bob from IBM.
 
 
 ## ✨ Features
 
-- 📦 Wrapper for BOB shell
+- 📦 Wrapper for Bob shell
 - 🔌 Seamless integration
 - 🛠️ No need to manually compile
 - 📁 Configurable
