@@ -15,7 +15,8 @@
 
 ## ⚡️ Requirements
 
-- Neovim >= **0.8.0** (needs to be built with **LuaJIT**)
+- Neovim >= **0.11.2** (needs to be built with **LuaJIT**)
+- LazyVim
 - bob-shell
 
 ## 🚀 Getting Started
