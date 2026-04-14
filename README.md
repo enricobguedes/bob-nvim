@@ -45,7 +45,7 @@ vim.keymap.set("n", "<space>tf", function() bob.bobSearch(vim.fn.expand("%:t")) 
 3. Make sure you have exported your Bob shell apikey
 4. You are good to go! 
 
-$$ ⚒️ USAGE 
+## ⚒️ USAGE 
 
 If you have applied the keys above, then you should be able to access Bob by using the key combination `space` -> `t` ->  `b`. This will open the bob interactive interface.
 
