@@ -44,3 +44,9 @@ vim.keymap.set("n", "<space>tf", function() bob.bobSearch(vim.fn.expand("%:t")) 
 
 3. Make sure you have exported your Bob shell apikey
 4. You are good to go! 
+
+$$ ⚒️ USAGE 
+
+If you have applied the keys above, then you should be able to access Bob by using the key combination `space` -> `t` ->  `b`. This will open the bob interactive interface.
+
+For using within the editing file, you can leave your cursor above the line/word that you want to search and whilst in view mode (standard), hit `space` -> `t` -> `w` (for word) or `l` (for line).
