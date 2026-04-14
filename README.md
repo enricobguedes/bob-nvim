@@ -17,7 +17,6 @@
 
 - Neovim >= **0.8.0** (needs to be built with **LuaJIT**)
 - bob-shell
-- Folke/trouble.nvim
 
 ## 🚀 Getting Started
 
