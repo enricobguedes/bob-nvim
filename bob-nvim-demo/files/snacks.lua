@@ -1,0 +1,29 @@
+return {
+	"folke/snacks.nvim",
+	---@type snacks.Config
+	opts = {
+		dashboard = {
+			preset = {
+				header = [[
+██╗██████╗ ███╗   ███╗    ██████╗  ██████╗ ██████╗     ███╗   ██╗██╗   ██╗██╗███╗   ███╗
+██║██╔══██╗████╗ ████║    ██╔══██╗██╔═══██╗██╔══██╗    ████╗  ██║██║   ██║██║████╗ ████║
+██║██████╔╝██╔████╔██║    ██████╔╝██║   ██║██████╔╝    ██╔██╗ ██║██║   ██║██║██╔████╔██║
+██║██╔══██╗██║╚██╔╝██║    ██╔══██╗██║   ██║██╔══██╗    ██║╚██╗██║╚██╗ ██╔╝██║██║╚██╔╝██║
+██║██████╔╝██║ ╚═╝ ██║    ██████╔╝╚██████╔╝██████╔╝    ██║ ╚████║ ╚████╔╝ ██║██║ ╚═╝ ██║
+╚═╝╚═════╝ ╚═╝     ╚═╝    ╚═════╝  ╚═════╝ ╚═════╝     ╚═╝  ╚═══╝  ╚═══╝  ╚═╝╚═╝     ╚═╝ 
+
+Welcome to the IBM's Bob nvim demo! To start using Bob, use <space> + t + b.
+
+To close interaction windows with Bob, use <space> + w + d. In the context menu to the right >>>
+... you will track your movements from, <space> to open context, w to select window section, 
+and d to delete the window.
+
+For line/word search, you must enter visual mode and hit <space> + b + w/l
+
+For extensive help, use :help + what you need help with.
+If you are new to nvim/vim, you can use always use :q to exit without saving! 
+]],
+			},
+		},
+	},
+}
